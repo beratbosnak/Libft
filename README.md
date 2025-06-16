@@ -1,13 +1,22 @@
 # Libft
 
-Reimplementation of essential C standard library functions as part of the 42 school curriculum. This project reinforces pointer handling, memory management, and string processing skills.
+Custom C library implementing core `<string>`, `<memory>`, `<ctype>`, and I/O functions to solidify pointer handling, memory management, and system-level programming skills.
+
+## Table of Contents
+
+* [Quick Start](#quick-start)
+* [Usage](#usage)
+* [Features](#features)
+* [Project Structure](#project-structure)
+* [License](#license)
+* [Contact](#contact)
 
 ## Quick Start
 
 Clone and build in one step:
 
 ```bash
-git clone https://github.com/beratbosnak/libft.git && cd libft && make
+git clone https://github.com/beratbosnak/Libft.git && cd Libft && make
 ```
 
 ## Usage
@@ -44,9 +53,9 @@ Hello, Libft!
 
 Manipulate null-terminated strings:
 
-* `ft_strlen` — length of a string
-* `ft_strlcpy`, `ft_strlcat` — safe string copy/concatenation with size limits
-* `ft_strchr`, `ft_strrchr` — search for a character
+* `ft_strlen` — return string length
+* `ft_strlcpy`, `ft_strlcat` — bounded copy/concatenation
+* `ft_strchr`, `ft_strrchr` — locate character
 * `ft_strncmp`, `ft_strnstr` — compare or search with length limit
 * `ft_strdup`, `ft_strjoin`, `ft_strtrim`, `ft_substr`, `ft_split`
 * `ft_strmapi`, `ft_striteri`
