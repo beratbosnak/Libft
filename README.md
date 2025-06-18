@@ -32,8 +32,8 @@ You need a C compiler (like `gcc` or `clang`) and `make` installed on your syste
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/beratbosnak/libft.git
-    cd libft
+    git clone https://github.com/beratbosnak/Libft.git
+    cd Libft
     ```
 
 2.  **Compile the library using `make`:**
