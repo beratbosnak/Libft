@@ -13,7 +13,7 @@
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include <unistd.h>
+# include <stddef.h>
 
 char		*ft_strchr(const char *s, int c);
 char		*ft_strrchr(const char *s, int c);
