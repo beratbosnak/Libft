@@ -26,7 +26,7 @@ To get a local copy up and running, follow these simple steps.
 
 ### Prerequisites
 
-You need a C compiler (like `gcc` or `clang`) and `make` installed on your system.
+You need a C compiler (like `gcc` or `clang`) and `make` installed on your system. This project is designed for UNIX-like operating systems.
 
 ### Installation & Compiling
 
