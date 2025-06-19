@@ -55,7 +55,6 @@ Here's a simple example of how to use the `libft` library in your own project.
 1.  Create a `main.c` file in the same directory as `libft.a` and `libft.h`:
 
     ```c
-    // main.c
     #include "libft.h"
     #include <unistd.h> // For write's STDOUT_FILENO
     #include <stdlib.h> // For free
