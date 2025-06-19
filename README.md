@@ -20,7 +20,7 @@ This project is a custom implementation of many standard C library functions, bu
 
 The result is a static library, `libft.a`, that serves as a versatile toolkit for C programming.
 
-## 🛠️ Getting Started
+## 🛠 Getting Started
 
 To get a local copy up and running, follow these simple steps.
 
