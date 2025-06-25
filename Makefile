@@ -52,7 +52,7 @@ $(NAME): $(OBJS)
 		@ar rc $(NAME) $(OBJS)
 		@echo "$(GREEN)✓ $(NAME) created successfully!$(RESET)"
 
-$(OBJDIR)/%.o: %.c
+$(OBJDIR)/%.o: %.c libft.h
 		@mkdir -p $(OBJDIR)
 		@echo "$(BLUE)Compiling $<...$(RESET)"
 		@$(CC) $(CFLAGS) $< -o $@ -I .
