@@ -25,7 +25,7 @@ This project is a fundamental part of the 42 curriculum, where I recreated a wid
 This library was built under the strict standards of the 42 school, demonstrating proficiency in key areas of software development:
 
 * **Written from Scratch:** Every function is implemented using only the most basic C features, with no external libraries allowed.
-* **Norm-Compliant:** The entire codebase adheres to the `Norminette`, a strict coding standard enforced at 42. This ensures high readability, consistency, and maintainability.
+* **Norm-Compliant:** The entire codebase adheres to the [`Norminette`](https://github.com/42school/norminette), a strict coding standard enforced at 42. This ensures high readability, consistency, and maintainability.
 * **Memory Safe:** All functions that allocate memory (`malloc`) are paired with appropriate deallocation logic, ensuring there are no memory leaks.
 * **Robust & Reliable:** The project is compiled with the `-Wall -Wextra -Werror` flags, guaranteeing that the code is free from common errors and warnings. Functions are designed to handle edge cases gracefully without unexpected crashes (e.g., `segmentation fault`).
 
@@ -89,7 +89,7 @@ Here's a simple example of how to use the `libft` library in your own project.
 2.  Compile your project and link it with the `libft` library:
 
     ```bash
-    cc main.c -L. -lft -o my_program
+    cc -Wall -Wextra -Werror main.c -L. -lft -o my_program
     ```
 
 3.  Run your program:
