@@ -1,8 +1,8 @@
 # Libft - A Custom C Library
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+[![School](https://img.shields.io/badge/School-42-black?style=for-the-badge&logo=42)](https://www.42.fr)
 ![Language](https://img.shields.io/badge/Language-C-blue?style=for-the-badge&logo=c)
-![School](https://img.shields.io/badge/School-42-black?style=for-the-badge&logo=42)
 
 This project is a fundamental part of the 42 curriculum, where I recreated a wide range of standard C library functions from scratch. The goal is to gain a deep understanding of C's core mechanics, low-level memory management, and fundamental algorithms without relying on any pre-existing libraries.
 
@@ -13,9 +13,10 @@ This project is a fundamental part of the 42 curriculum, where I recreated a wid
 1.  [Key Features & Challenges](#-key-features--challenges)
 2.  [Getting Started](#-getting-started)
 3.  [Usage Example](#-usage-example)
-4.  [Function Reference](#-function-reference)
-5.  [License](#-license)
-6.  [Contact](#-contact)
+4.  [Testing](#-testing)
+5.  [Function Reference](#-function-reference)
+6.  [License](#-license)
+7.  [Contact](#-contact)
 
 ---
 
@@ -42,7 +43,7 @@ You need a C compiler (like `gcc` or `clang`), `make`, and `ar` installed on you
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/beratbosnak/Libft.git
+    git clone [https://github.com/beratbosnak/Libft.git](https://github.com/beratbosnak/Libft.git)
     cd Libft
     ```
 
@@ -101,9 +102,17 @@ Here's a simple example of how to use the `libft` library in your own project.
     ```
 ---
 
+## 🧪 Testing
+
+To ensure the robustness and correctness of all functions, especially for edge cases, the project was rigorously validated. For this purpose, I used the comprehensive `libftTester` created by [Tripouille](https://github.com/Tripouille/libftTester). My implementation successfully passes all tests.
+
+---
+
 ## 📚 Function Reference
 
 This library includes the mandatory functions as required by the project. The functions are grouped by category for clarity.
+
+**Note on Memory Management:** Functions that return a new string, substring, or an array of strings allocate the necessary memory with `malloc`. The caller is responsible for freeing this memory to prevent leaks.
 
 | Category      | Function      | Description                                                    |
 | :------------ | :------------ | :------------------------------------------------------------- |
@@ -122,7 +131,7 @@ This library includes the mandatory functions as required by the project. The fu
 |               | `ft_memcmp`   | Compares two memory blocks.                                    |
 |               | `ft_calloc`   | Allocates and zeroes out memory for an array.                  |
 | **String** | `ft_strlen`   | Calculates the length of a string.                             |
-|               | `ft_strdup`   | Duplicates a string using `malloc`.                            |
+|               | `ft_strdup`   | Duplicates a string.                                           |
 |               | `ft_strlcpy`  | Size-bounded string copying.                                   |
 |               | `ft_strlcat`  | Size-bounded string concatenation.                             |
 |               | `ft_strchr`   | Locates the first occurrence of a character in a string.       |
