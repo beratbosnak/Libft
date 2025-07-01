@@ -43,7 +43,7 @@ You need a C compiler (like `gcc` or `clang`), `make`, and `ar` installed on you
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/beratbosnak/Libft.git](https://github.com/beratbosnak/Libft.git)
+    git clone https://github.com/beratbosnak/Libft.git
     cd Libft
     ```
 
