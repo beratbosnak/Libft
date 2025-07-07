@@ -1,168 +1,137 @@
-# Libft - A Custom C Library
+# Libft - Your First C Library
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
-[![School](https://img.shields.io/badge/School-42-black?style=for-the-badge&logo=42)](https://www.42.fr)
-![Language](https://img.shields.io/badge/Language-C-blue?style=for-the-badge&logo=c)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE)
+[![Language C](https://img.shields.io/badge/language-C-blue?style=for-the-badge)](https://en.wikipedia.org/wiki/C_(programming_language))
+[![42 Kocaeli](https://img.shields.io/badge/42-Kocaeli-black?style=for-the-badge)](https://www.42kocaeli.com.tr)
+[![Status](https://img.shields.io/badge/status-completed-green?style=for-the-badge)](https://github.com/beratbosnak/Libft)
 
-This project is a fundamental part of the 42 curriculum, where I recreated a wide range of standard C library functions from scratch. The goal is to gain a deep understanding of C's core mechanics, low-level memory management, and fundamental algorithms without relying on any pre-existing libraries.
+This project is about creating a personal C library, `libft`. It contains a collection of re-implemented standard C functions and other useful utilities. The goal is to gain a deep understanding of how these functions work and to create a versatile tool that will be used in many future C projects at the school.
 
----
+## 📖 Table of Contents
+* [About The Project](#-about-the-project)
+* [Functions Included](#-functions-included)
+  * [Standard C Library Functions](#standard-c-library-functions)
+  * [Custom Utility Functions](#custom-utility-functions)
+* [How To Use](#-how-to-use)
+  * [Prerequisites](#prerequisites)
+  * [Compilation](#compilation)
+  * [Usage in Your C Project](#usage-in-your-c-project)
+* [License](#-license)
+* [Author](#-author)
 
-## 📋 Table of Contents
+## 🎯 About The Project
 
-1.  [Key Features & Challenges](#-key-features--challenges)
-2.  [Getting Started](#-getting-started)
-3.  [Usage Example](#-usage-example)
-4.  [Testing](#-testing)
-5.  [Function Reference](#-function-reference)
-6.  [License](#-license)
-7.  [Contact](#-contact)
+This project is a fundamental part of the curriculum at **42, a globally recognized software engineering school known for its rigorous, project-based learning model.** It challenges you to re-create many general-purpose functions that you would normally have access to in the standard C library. This process is crucial for learning the details of C programming, memory management, and creating robust, error-free code.
 
----
+This project adheres to a rigorous coding standard known as the **[Norminette](https://github.com/42School/norminette)**. This standard, enforced throughout the 42 curriculum, ensures the code is exceptionally clean, readable, and maintainable. Furthermore, the project must be compiled using the `-Wall`, `-Wextra`, and `-Werror` flags, and its `Makefile` must contain the `all`, `clean`, `fclean`, and `re` rules.
 
-## ✨ Key Features & Challenges
+## 📚 Functions Included
 
-This library was built under the strict standards of the 42 school, demonstrating proficiency in key areas of software development:
+The library contains a variety of useful functions, grouped into two main categories:
 
-* **Written from Scratch:** Every function is implemented using only the most basic C features, with no external libraries allowed.
-* **Norm-Compliant:** The entire codebase adheres to the [`Norminette`](https://github.com/42school/norminette), a strict coding standard enforced at 42. This ensures high readability, consistency, and maintainability.
-* **Memory Safe:** All functions that allocate memory (`malloc`) are paired with appropriate deallocation logic, ensuring there are no memory leaks.
-* **Robust & Reliable:** The project is compiled with the `-Wall -Wextra -Werror` flags, guaranteeing that the code is free from common errors and warnings. Functions are designed to handle edge cases gracefully without unexpected crashes (e.g., `segmentation fault`).
+### Standard C Library Functions
+These are re-implementations of a set of functions from the `libc`. Their behaviors are designed to be identical to the originals.
 
----
+* `ft_isalpha`
+* `ft_isdigit`
+* `ft_isalnum`
+* `ft_isascii`
+* `ft_isprint`
+* `ft_strlen`
+* `ft_memset`
+* `ft_bzero`
+* `ft_memcpy`
+* `ft_memmove`
+* `ft_strlcpy`
+* `ft_strlcat`
+* `ft_toupper`
+* `ft_tolower`
+* `ft_strchr`
+* `ft_strrchr`
+* `ft_strncmp`
+* `ft_memchr`
+* `ft_memcmp`
+* `ft_strnstr`
+* `ft_atoi`
+* `ft_calloc`
+* `ft_strdup`
 
-## 🛠 Getting Started
+### Custom Utility Functions
+This section contains custom functions that are either not in the standard library or are implemented in a different form to provide additional utility.
 
-To get a local copy up and running, follow these simple steps.
+* `ft_substr`: Allocates and returns a substring from a string.
+* `ft_strjoin`: Concatenates two strings into a new, allocated string.
+* `ft_strtrim`: Trims specified characters from the beginning and end of a string.
+* `ft_split`: Splits a string into an array of strings using a delimiter.
+* `ft_itoa`: Converts an integer into a string.
+* `ft_strmapi`: Applies a function to each character of a string to create a new string.
+* `ft_striteri`: Applies a function to each character of a string, allowing in-place modification.
+* `ft_putchar_fd`: Outputs a character to a given file descriptor.
+* `ft_putstr_fd`: Outputs a string to a given file descriptor.
+* `ft_putendl_fd`: Outputs a string to a file descriptor, followed by a newline.
+* `ft_putnbr_fd`: Outputs an integer to a given file descriptor.
+
+## 🚀 How To Use
 
 ### Prerequisites
 
-You need a C compiler (like `gcc` or `clang`), `make`, and `ar` installed on your system. This project is designed for UNIX-like operating systems.
+To use this library, you need a C compiler (like `cc`) and the `ar` command-line tool.
 
-### Installation & Compiling
+### Compilation
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/beratbosnak/Libft.git
+    git clone [https://github.com/beratbosnak/Libft.git](https://github.com/beratbosnak/Libft.git)
     cd Libft
     ```
 
-2.  **Compile the library using `make`:**
-    The following commands are available:
-    * `make` or `make all`: Compiles source files and creates the static library `libft.a`.
-    * `make clean`: Removes temporary object files (`.o`).
-    * `make fclean`: Removes object files and the `libft.a` library.
-    * `make re`: Re-compiles the library by running `fclean` and `all` sequentially.
+2.  **Compile the library:**
+    ```bash
+    make
+    ```
 
----
+### Usage in Your C Project
 
-## 🚀 Usage Example
-
-Here's a simple example of how to use the `libft` library in your own project.
-
-1.  Create a `main.c` file in the same directory as `libft.a` and `libft.h`:
-
+1.  **Create an example file:**
+    Create a file named `example.c` and place the `libft.h` file in the same directory.
     ```c
     #include "libft.h"
-    #include <unistd.h> // For the STDOUT_FILENO constant
-    #include <stdlib.h> // For free
+    #include <stdio.h>
 
     int main(void)
     {
-        char *str1 = "Building my own ";
-        char *str2 = "library is fun!";
-        char *joined_str;
-
-        // Using ft_strjoin to concatenate two strings
-        joined_str = ft_strjoin(str1, str2);
-
-        // Using ft_putendl_fd to print the result
-        if (joined_str)
-        {
-            ft_putendl_fd(joined_str, STDOUT_FILENO);
-            free(joined_str); // Don't forget to free allocated memory
-        }
+        char *str = "hello world";
+        printf("Length of string: %zu\n", ft_strlen(str));
         return (0);
     }
     ```
 
-2.  Compile your project and link it with the `libft` library:
-
+2.  **Compile your program:**
+    Link your program with the `libft.a` library file.
     ```bash
-    cc -Wall -Wextra -Werror main.c -L. -lft -o my_program
+    cc example.c -L. -lft -o my_program
     ```
+    -   **Note:** `cc` is used here to represent the system's default C compiler (e.g., `gcc` or `clang`).
+    -   `-L.` tells the compiler to look for libraries in the current directory.
+    -   `-lft` tells the compiler to link with the `libft` library.
 
-3.  Run your program:
+3.  **Run and See the Output:**
+    Execute the compiled program to see the result.
     ```bash
     ./my_program
     ```
     **Expected Output:**
     ```
-    Building my own library is fun!
+    Length of string: 11
     ```
----
 
-## 🧪 Testing
+## ⚖ License
 
-To ensure the robustness and correctness of all functions, especially for edge cases, the project was rigorously validated. For this purpose, I used the comprehensive `libftTester` created by [Tripouille](https://github.com/Tripouille/libftTester). My implementation successfully passes all tests.
+This project is licensed under the MIT License. See the [`LICENSE`](LICENSE) file for more details.
 
----
+## ✍ Author
 
-## 📚 Function Reference
+👤 **Berat Boşnak**
 
-This library includes the mandatory functions as required by the project. The functions are grouped by category for clarity.
-
-**Note on Memory Management:** Functions that return a new string, substring, or an array of strings allocate the necessary memory with `malloc`. The caller is responsible for freeing this memory to prevent leaks.
-
-| Category      | Function      | Description                                                    |
-| :------------ | :------------ | :------------------------------------------------------------- |
-| **Character** | `ft_isalpha`  | Checks for an alphabetic character.                            |
-|               | `ft_isdigit`  | Checks for a digit.                                            |
-|               | `ft_isalnum`  | Checks for an alphanumeric character.                          |
-|               | `ft_isascii`  | Checks for a valid ASCII character.                            |
-|               | `ft_isprint`  | Checks for a printable character.                              |
-|               | `ft_toupper`  | Converts a lower-case letter to upper-case.                    |
-|               | `ft_tolower`  | Converts an upper-case letter to lower-case.                   |
-| **Memory** | `ft_memset`   | Fills a memory block with a constant byte.                     |
-|               | `ft_bzero`    | Writes zeroes to a byte string.                                |
-|               | `ft_memcpy`   | Copies a memory area.                                          |
-|               | `ft_memmove`  | Safely copies overlapping memory areas.                        |
-|               | `ft_memchr`   | Scans memory for a character.                                  |
-|               | `ft_memcmp`   | Compares two memory blocks.                                    |
-|               | `ft_calloc`   | Allocates and zeroes out memory for an array.                  |
-| **String** | `ft_strlen`   | Calculates the length of a string.                             |
-|               | `ft_strdup`   | Duplicates a string.                                           |
-|               | `ft_strlcpy`  | Size-bounded string copying.                                   |
-|               | `ft_strlcat`  | Size-bounded string concatenation.                             |
-|               | `ft_strchr`   | Locates the first occurrence of a character in a string.       |
-|               | `ft_strrchr`  | Locates the last occurrence of a character in a string.        |
-|               | `ft_strncmp`  | Compares two strings up to a given length.                     |
-|               | `ft_strnstr`  | Locates a substring in a string, with a length limit.          |
-|               | `ft_substr`   | Returns a substring from a string.                             |
-|               | `ft_strjoin`  | Concatenates two strings into a new string.                    |
-|               | `ft_strtrim`  | Trims specified characters from the start and end of a string. |
-|               | `ft_split`    | Splits a string by a delimiter into an array of strings.       |
-|               | `ft_strmapi`  | Creates a new string by applying a function to each character, passing its index. |
-|               | `ft_striteri` | Applies a function to each character of a string, with index.  |
-| **Conversion**| `ft_atoi`     | Converts a string to an integer.                               |
-|               | `ft_itoa`     | Converts an integer to a string.                               |
-| **File I/O** | `ft_putchar_fd`| Outputs a character to a given file descriptor.                |
-|               | `ft_putstr_fd` | Outputs a string to a given file descriptor.                 |
-|               | `ft_putendl_fd`| Outputs a string and a newline to a given file descriptor.     |
-|               | `ft_putnbr_fd` | Outputs an integer to a given file descriptor.                 |
-
----
-
-## 📄 License
-
-This project is distributed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
----
-
-## 📬 Contact
-
-**Berat Boşnak**
-
-* **Portfolio:** [beratbosnak.com](https://beratbosnak.com)
+* **GitHub:** [@beratbosnak](https://github.com/beratbosnak)
 * **LinkedIn:** [linkedin.com/in/beratbosnak](https://www.linkedin.com/in/beratbosnak)
-* **GitHub:** [github.com/beratbosnak](https://github.com/beratbosnak)
