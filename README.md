@@ -81,7 +81,7 @@ To use this library, you need a C compiler (like `cc`) and the `ar` command-line
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/beratbosnak/Libft.git](https://github.com/beratbosnak/Libft.git)
+    git clone https://github.com/beratbosnak/Libft.git
     cd Libft
     ```
 
