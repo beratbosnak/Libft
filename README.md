@@ -261,7 +261,7 @@ This project was instrumental in developing a deep understanding of several crit
 - **Error Handling**: Implementing robust error checking and graceful failure handling
 - **Optimization**: Writing efficient code while maintaining readability
 
-**Impact**: This library has been successfully integrated into subsequent 42 School projects, proving its reliability and practical value.
+**Impact**: This library has been integrated into subsequent 42 School projects, proving its reliability and practical value.
 
 ## 📋 Project Requirements
 
