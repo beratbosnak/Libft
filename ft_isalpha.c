@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bbosnak <bbosnak@student.42kocaeli.com.    +#+  +:+       +#+        */
+/*   By: bbosnak <bbosnak@student.42kocaeli.com.tr  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/12 14:55:28 by bbosnak           #+#    #+#             */
-/*   Updated: 2025/06/18 07:31:32 by bbosnak          ###   ########.fr       */
+/*   Updated: 2025/06/18 07:31:32 by bbosnak          ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 

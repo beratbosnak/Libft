@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bbosnak <bbosnak@student.42kocaeli.com.    +#+  +:+       +#+        */
+/*   By: bbosnak <bbosnak@student.42kocaeli.com.tr  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/27 19:17:37 by bbosnak           #+#    #+#             */
-/*   Updated: 2025/06/18 07:56:35 by bbosnak          ###   ########.fr       */
+/*   Updated: 2025/06/18 07:56:35 by bbosnak          ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 

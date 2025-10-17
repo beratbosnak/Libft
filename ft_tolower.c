@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bbosnak <bbosnak@student.42kocaeli.com.    +#+  +:+       +#+        */
+/*   By: bbosnak <bbosnak@student.42kocaeli.com.tr  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/19 19:41:09 by bbosnak           #+#    #+#             */
-/*   Updated: 2025/06/18 07:57:08 by bbosnak          ###   ########.fr       */
+/*   Updated: 2025/06/18 07:57:08 by bbosnak          ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 

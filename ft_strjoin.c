@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bbosnak <bbosnak@student.42kocaeli.com.    +#+  +:+       +#+        */
+/*   By: bbosnak <bbosnak@student.42kocaeli.com.tr  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/27 16:59:44 by bbosnak           #+#    #+#             */
-/*   Updated: 2025/06/18 07:56:20 by bbosnak          ###   ########.fr       */
+/*   Updated: 2025/06/18 07:56:20 by bbosnak          ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 

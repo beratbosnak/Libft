@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bbosnak <bbosnak@student.42kocaeli.com.    +#+  +:+       +#+        */
+/*   By: bbosnak <bbosnak@student.42kocaeli.com.tr  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/12 15:04:04 by bbosnak           #+#    #+#             */
-/*   Updated: 2025/06/18 07:32:56 by bbosnak          ###   ########.fr       */
+/*   Updated: 2025/06/18 07:32:56 by bbosnak          ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 

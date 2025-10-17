@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bbosnak <bbosnak@student.42kocaeli.com.    +#+  +:+       +#+        */
+/*   By: bbosnak <bbosnak@student.42kocaeli.com.tr  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/12 14:56:54 by bbosnak           #+#    #+#             */
-/*   Updated: 2025/06/18 07:31:49 by bbosnak          ###   ########.fr       */
+/*   Updated: 2025/06/18 07:31:49 by bbosnak          ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 

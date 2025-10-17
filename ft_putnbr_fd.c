@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bbosnak <bbosnak@student.42kocaeli.com.    +#+  +:+       +#+        */
+/*   By: bbosnak <bbosnak@student.42kocaeli.com.tr  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/03 17:48:14 by bbosnak           #+#    #+#             */
-/*   Updated: 2025/06/18 07:55:38 by bbosnak          ###   ########.fr       */
+/*   Updated: 2025/06/18 07:55:38 by bbosnak          ###   ########.tr       */
 /*                                                                            */
 /* ************************************************************************** */
 
