@@ -279,8 +279,15 @@ This project was developed according to 42 School's strict requirements:
 - ✅ Library created using `ar` command (not `libtool`)
 - ✅ All .c files compile without warnings or errors
 
+### External Functions Allowed
+- `malloc`, `free` - Memory allocation functions
+- `write` - For output functions (`ft_putchar_fd`, `ft_putstr_fd`, etc.)
+
 ### Additional Notes
 - **Bonus Part**: Not implemented (focused on perfect mandatory implementation)
+  - Bonus includes: Linked list manipulation functions (`ft_lstnew`, `ft_lstadd_front`, `ft_lstsize`, `ft_lstlast`, `ft_lstadd_back`, `ft_lstdelone`, `ft_lstclear`, `ft_lstiter`, `ft_lstmap`)
+  - These functions use the `t_list` structure for dynamic list operations
+  - Decision: Prioritized core library completeness over bonus features
 - **Testing**: Thoroughly tested with various test suites and edge cases
 - **Reusability**: Designed to be integrated into future C projects
 
