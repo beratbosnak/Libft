@@ -301,6 +301,6 @@ This project is licensed under the MIT License. See the [`LICENSE`](LICENSE) fil
 
 *This project is part of the 42 School curriculum - a peer-to-peer learning environment that emphasizes practical skills, problem-solving, and collaboration.*
 
-**42 School** | **Kocaeli Campus** | **2024**
+**42 School** | **Kocaeli Campus** | **2022**
 
 </div>
